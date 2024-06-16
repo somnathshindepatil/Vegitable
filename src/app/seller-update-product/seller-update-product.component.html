@@ -1,0 +1,50 @@
+<div class="common-form">
+    <h1>UpdateProduct</h1>
+    <form #addProduct="ngForm" class="common-form"  >
+        <input
+          type="text"
+          class="form-input"
+          placeholder="Enter product Name"
+          name="name"
+          ngModel
+        />
+        <input
+          type="text"
+          class="form-input"
+          placeholder="Enter color"
+          name="color"
+          ngModel
+        />
+        <input
+          type="text"
+          class="form-input"
+          placeholder="Enter Category"
+          name="category"
+          ngModel
+        />
+        <input
+          type="text"
+          class="form-input"
+          placeholder="Price"
+          name="price"
+          ngModel
+        />
+        <textarea
+          type="text"
+          class="form-input"
+          placeholder="description"
+          name="description"
+          ngModel></textarea>
+        
+        <input
+          type="url"
+          class="form-input"
+          placeholder="Enter Product image url"
+          name="image"
+          ngModel
+        >
+        
+        
+      </form>
+      <button >Product updated</button>
+</div>
